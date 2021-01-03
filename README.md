@@ -100,10 +100,3 @@ We can change numner of nodes and number of masters using following commands
    kops edit ig - change min and max size to 0
    kops update cluster --yes
  
-```
-# Optional (Create terraform scripts through kops)
-
-```
-  https://github.com/kubernetes/kops/blob/master/docs/terraform.md
-
-```
